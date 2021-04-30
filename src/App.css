@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.note-wrapper {
+ margin-top:5%;
+  margin-left: 5%;
+  width: 75%;
+  height:100px;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.note1, .note2, .note3, .note4, .note5, .note6 {
+  box-shadow: 0px 3px 5px #666;
+  border: 2px solid #82c0cc;
+  border-radius: 12px;
+  cursor: pointer;
+  color:white;
+  width:13%;
+
+}
+.note1, .note3, .note5 {
+  height:65%;
+}
+.note2, .note4, .note6 {
+  height:55%;
+
+}
+.note1 {
+  background:#16679a;
+}
+.note2 {
+background:#0f80aa;
+}
+.note3 {
+  background:#04a6c2;
+}
+.note4 {
+  background:#00b2ca;
+}
+.note5 {
+  background:#20bac5;
+}
+.note6 {
+  background:#3fc1c0;
+}
+.harm1, .harm2, .harm3, .harm4, .harm5, .harm6 {
+  box-shadow: 0px 3px 5px #666;
+  width:13%;
+  color:white;
+  border:2px solid #6B4178;
+  cursor:pointer;
+  border-radius: 15px;
+}
+.harm1, .harm3, .harm5 {
+  height:65%;
+}
+.harm2, .harm4, .harm6 {
+  height:55%;
+}
+.harm1 {
+  background-color: #1b3a4b;
+}
+.harm2 {
+  background-color: #272640;
+}
+.harm3 {
+  background-color: #312244;
+}
+.harm4 {
+  background-color: #3e1f47;
+}
+.harm5 {
+  background-color: #4d194d;
+}
+.harm6 {
+  background-color: #7B2085;
+}
+.mel1, .mel2, .mel3, .mel4, .mel5, .mel6 {
+  box-shadow: 0px 3px 5px #666;
+  width:13%;
+  color:white;
+  border: 2px solid #ffff3f;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+.mel1, .mel3, .mel5 {
+  height:65%;
+}
+.mel2, .mel4, .mel6 {
+  height:55%;
+}
+.mel1 {
+  background-color: #007f5f;
+}
+.mel2 {
+    background-color: #2b9348;
+}
+.mel3 {
+  background-color: #55a630;
+}
+.mel4 {
+  background-color: #80b918;
+}
+.mel5 {
+  background-color: #aacc00;
+}
+.mel6 {
+  background-color: #bfd200;
+}
+.drumwrap {
+  margin-left: 60%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  height: 200px;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+.effects {
+  margin-top: -10%;
+      width: 60%;
+      text-align: center;
+      display: flex;
+      height: 100px;
+      justify-content: space-around;
+}
+.effect {
+  border: 5px grey groove;
+      width: 20%;
+      height: 100%;
+      background-color: #ef795e;
+      color: black;
+      font-family: monospace;
+}
+.kick {
+  border: 6px grey groove;
+    width: 48%;
+    height: 48%;
+  background-color:#cfdbd5;
+  color:black;
+    font-family: monospace, sans-serif;
+}
+.snare {
+  border: 6px grey groove;
+      width: 48%;
+      height: 48%;
+  background-color: #e8eddf;
+  color:black;
+  font-family: monospace, sans-serif;
+}
+.scalenames {
+  color:white;
+  margin-right:3%;
+}
+.note1:active, .note2:active, .note3:active, .note4:active, .note5:active, .note6:active {
+  background-color: rgba(102, 103, 215, 0.3);
+}
+.harm1:active, .harm2:active, .harm3:active, .harm4:active, .harm5:active, .harm6:active {
+background-color: rgba(123, 90, 153, 0.4);
+}
+.mel1:active, .mel2:active, .mel3:active, .mel4:active, .mel5:active, .mel6:active {
+  background-color: rgba(221, 223, 0, 0.4);
+}
+.kick:active, .snare:active {
+  border: 6px #f5cb5c inset;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
